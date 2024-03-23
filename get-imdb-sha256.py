@@ -93,7 +93,6 @@ if __name__ == "__main__":
     url = "https://www.imdb.com/search/title/"
     keyword = "Shrek"
     sha256_hash = get_sha256_from_network_tab(url, keyword)
-    sha256_hash = "Shrek"
     if sha256_hash:
         with open("HASH", "w") as f:
             f.write(sha256_hash)
