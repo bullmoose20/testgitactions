@@ -1,4 +1,4 @@
-name: Update-Media-Stingers
+name: Update-IMDb-Hash
 
 on:
   schedule:
