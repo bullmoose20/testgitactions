@@ -33,15 +33,15 @@ def get_sha256_from_network_tab(url, keyword):
         driver.get(url)
         # print("Current URL:", driver.current_url)
         # Perform any necessary scrolling actions
-        driver.save_screenshot('./current_url.png')
+        # driver.save_screenshot('./current_url.png')
 
         # Click on "Expand all" to reveal all advanced filter boxes
         expand_all_button = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.XPATH, '//span[@class="ipc-btn__text" and text()="Expand all"]'))
         )
-        driver.save_screenshot('./before_click.png')
+        # driver.save_screenshot('./before_click.png')
         expand_all_button.click()
-        driver.save_screenshot('./after_click.png')
+        # driver.save_screenshot('./after_click.png')
 
         # Now, all advanced filter boxes should be visible, locate and interact with the search box
         search_box = WebDriverWait(driver, 10).until(
@@ -51,17 +51,17 @@ def get_sha256_from_network_tab(url, keyword):
         search_box.send_keys(keyword)
 
         # Simulate pressing the Enter key
-        driver.save_screenshot('./before_click_shrek.png')
+        # driver.save_screenshot('./before_click_shrek.png')
         search_box.send_keys(Keys.ENTER)
-        driver.save_screenshot('./after_click_shrek.png')
+        # driver.save_screenshot('./after_click_shrek.png')
 
         # Click on the specified button
         movie_button = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.XPATH, '//button[@data-testid="test-chip-id-movie"]'))
         )
-        driver.save_screenshot('./before_click_movie_button.png')
+        # driver.save_screenshot('./before_click_movie_button.png')
         movie_button.click()
-        driver.save_screenshot('./after_click_movie_button.png')
+        # driver.save_screenshot('./after_click_movie_button.png')
 
         # Wait for the search results to load
         WebDriverWait(driver, 10).until(
@@ -94,6 +94,8 @@ if __name__ == "__main__":
     keyword = "Shrek"
     sha256_hash = get_sha256_from_network_tab(url, keyword)
     if sha256_hash:
+        with open("HASH", "w") as f:
+            f.write(sha256_hash)
         print("SHA-256 hash from network tab:", sha256_hash)
     else:
         print("Failed to retrieve SHA-256 hash.")
