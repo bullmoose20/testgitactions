@@ -1,0 +1,48 @@
+2024-10-03 00:05:35,647 - INFO - ===================START===================
+2024-10-03 00:05:35,648 - INFO - ====== WebDriver manager ======
+2024-10-03 00:05:35,852 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-03 00:05:35,888 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-03 00:05:35,912 - INFO - There is no [linux64] chromedriver "129.0.6668.89" for browser google-chrome "129.0.6668" in cache
+2024-10-03 00:05:35,912 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-03 00:05:35,981 - INFO - WebDriver version 129.0.6668.89 selected
+2024-10-03 00:05:35,985 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.89/linux64/chromedriver-linux64.zip
+2024-10-03 00:05:35,985 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.89/linux64/chromedriver-linux64.zip
+2024-10-03 00:05:36,016 - INFO - Driver downloading response is 200
+2024-10-03 00:05:36,091 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-03 00:05:36,240 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/129.0.6668.89]
+2024-10-03 00:05:36,240 - INFO - chrome_driver_path: /home/runner/.wdm/drivers/chromedriver/linux64/129.0.6668.89/chromedriver-linux64/chromedriver
+2024-10-03 00:05:36,874 - INFO - Removing log file: get-imdb-sha256-20240923000521750.log
+2024-10-03 00:05:36,875 - INFO - Chrome Browser Version: 129.0.6668.58
+2024-10-03 00:05:36,875 - INFO - ChromeDriver Version: 129.0.6668.89 (951c0b97221f8d4ba37cf97d324505c832251cf9-refs/branch-heads/6668@{#1503})
+2024-10-03 00:05:36,875 - INFO - Current URL: https://www.imdb.com/search/title/
+2024-10-03 00:05:36,875 - INFO - Keyword: Shrek
+2024-10-03 00:10:36,892 - ERROR - An error occurred: Message: timeout: Timed out receiving message from renderer: 299.415
+  (Session info: chrome=129.0.6668.58)
+Stacktrace:
+#0 0x55d8d9a5402a <unknown>
+#1 0x55d8d973a5e0 <unknown>
+#2 0x55d8d9722733 <unknown>
+#3 0x55d8d9722422 <unknown>
+#4 0x55d8d9720493 <unknown>
+#5 0x55d8d9720c4f <unknown>
+#6 0x55d8d9730667 <unknown>
+#7 0x55d8d97469b4 <unknown>
+#8 0x55d8d974bdfb <unknown>
+#9 0x55d8d972135e <unknown>
+#10 0x55d8d974680f <unknown>
+#11 0x55d8d97cdfe2 <unknown>
+#12 0x55d8d97ae8c3 <unknown>
+#13 0x55d8d977c6b3 <unknown>
+#14 0x55d8d977d68e <unknown>
+#15 0x55d8d9a1ea2b <unknown>
+#16 0x55d8d9a229b1 <unknown>
+#17 0x55d8d9a0b225 <unknown>
+#18 0x55d8d9a23532 <unknown>
+#19 0x55d8d99f038f <unknown>
+#20 0x55d8d9a42f28 <unknown>
+#21 0x55d8d9a430f3 <unknown>
+#22 0x55d8d9a52e7c <unknown>
+#23 0x7f0190094ac3 <unknown>
+
+2024-10-03 00:10:36,997 - INFO - Failed to retrieve SHA-256 hash.
+2024-10-03 00:10:36,997 - INFO - ====================END====================
