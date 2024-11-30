@@ -1,0 +1,21 @@
+2024-11-30 00:05:52,803 - INFO - ===================START===================
+2024-11-30 00:05:52,803 - INFO - ====== WebDriver manager ======
+2024-11-30 00:05:52,993 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-30 00:05:53,022 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-30 00:05:53,052 - INFO - There is no [linux64] chromedriver "131.0.6778.85" for browser google-chrome "131.0.6778" in cache
+2024-11-30 00:05:53,052 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-30 00:05:53,153 - INFO - WebDriver version 131.0.6778.85 selected
+2024-11-30 00:05:53,156 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.85/linux64/chromedriver-linux64.zip
+2024-11-30 00:05:53,156 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.85/linux64/chromedriver-linux64.zip
+2024-11-30 00:05:53,188 - INFO - Driver downloading response is 200
+2024-11-30 00:05:53,267 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-30 00:05:53,424 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/131.0.6778.85]
+2024-11-30 00:05:53,425 - INFO - chrome_driver_path: /home/runner/.wdm/drivers/chromedriver/linux64/131.0.6778.85/chromedriver-linux64/chromedriver
+2024-11-30 00:05:53,976 - INFO - Removing log file: get-imdb-sha256-20241120000602152.log
+2024-11-30 00:05:53,976 - INFO - Chrome Browser Version: 131.0.6778.85
+2024-11-30 00:05:53,976 - INFO - ChromeDriver Version: 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})
+2024-11-30 00:05:53,976 - INFO - Current URL: https://www.imdb.com/search/title/
+2024-11-30 00:05:53,977 - INFO - Keyword: Shrek
+2024-11-30 00:07:54,056 - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=40041): Read timed out. (read timeout=120)
+2024-11-30 00:08:08,854 - INFO - Failed to retrieve SHA-256 hash.
+2024-11-30 00:08:08,854 - INFO - ====================END====================
