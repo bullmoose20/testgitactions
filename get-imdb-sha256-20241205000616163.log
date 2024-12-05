@@ -1,0 +1,22 @@
+2024-12-05 00:06:16,163 - INFO - ===================START===================
+2024-12-05 00:06:16,163 - INFO - ====== WebDriver manager ======
+2024-12-05 00:06:17,896 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-05 00:06:17,936 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-05 00:06:17,960 - INFO - There is no [linux64] chromedriver "131.0.6778.87" for browser google-chrome "131.0.6778" in cache
+2024-12-05 00:06:17,960 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-05 00:06:18,038 - INFO - WebDriver version 131.0.6778.87 selected
+2024-12-05 00:06:18,041 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.87/linux64/chromedriver-linux64.zip
+2024-12-05 00:06:18,042 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.87/linux64/chromedriver-linux64.zip
+2024-12-05 00:06:18,083 - INFO - Driver downloading response is 200
+2024-12-05 00:06:18,181 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-05 00:06:18,343 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/131.0.6778.87]
+2024-12-05 00:06:18,344 - INFO - chrome_driver_path: /home/runner/.wdm/drivers/chromedriver/linux64/131.0.6778.87/chromedriver-linux64/chromedriver
+2024-12-05 00:06:23,200 - INFO - Removing log file: get-imdb-sha256-20241125000558250.log
+2024-12-05 00:06:23,200 - INFO - Chrome Browser Version: 131.0.6778.85
+2024-12-05 00:06:23,200 - INFO - ChromeDriver Version: 131.0.6778.87 (ce31cae9487357cfd3bd62984ed5250121a71a23-refs/branch-heads/6778@{#2287})
+2024-12-05 00:06:23,200 - INFO - Current URL: https://www.imdb.com/search/title/
+2024-12-05 00:06:23,200 - INFO - Keyword: Shrek
+2024-12-05 00:08:23,298 - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=43623): Read timed out. (read timeout=120)
+2024-12-05 00:10:23,383 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=43623): Read timed out. (read timeout=120)")': /session/6e0c0eb1a3e0c49f13eb956a549f7259
+2024-12-05 00:10:26,883 - INFO - Failed to retrieve SHA-256 hash.
+2024-12-05 00:10:26,883 - INFO - ====================END====================
