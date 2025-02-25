@@ -1,0 +1,48 @@
+2025-02-25 00:05:44,478 - INFO - ===================START===================
+2025-02-25 00:05:44,478 - INFO - ====== WebDriver manager ======
+2025-02-25 00:05:45,812 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-25 00:05:45,855 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-25 00:05:45,879 - INFO - There is no [linux64] chromedriver "133.0.6943.126" for browser google-chrome "133.0.6943" in cache
+2025-02-25 00:05:45,879 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-25 00:05:45,947 - INFO - WebDriver version 133.0.6943.126 selected
+2025-02-25 00:05:45,949 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/linux64/chromedriver-linux64.zip
+2025-02-25 00:05:45,949 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/linux64/chromedriver-linux64.zip
+2025-02-25 00:05:45,976 - INFO - Driver downloading response is 200
+2025-02-25 00:05:46,053 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-25 00:05:46,185 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/133.0.6943.126]
+2025-02-25 00:05:46,186 - INFO - chrome_driver_path: /home/runner/.wdm/drivers/chromedriver/linux64/133.0.6943.126/chromedriver-linux64/chromedriver
+2025-02-25 00:05:50,222 - INFO - Removing log file: get-imdb-sha256-20250215000543688.log
+2025-02-25 00:05:50,222 - INFO - Chrome Browser Version: 133.0.6943.53
+2025-02-25 00:05:50,222 - INFO - ChromeDriver Version: 133.0.6943.126 (cffa127ce7b6be72885391527c15b452056a2e81-refs/branch-heads/6943@{#1570})
+2025-02-25 00:05:50,222 - INFO - Current URL: https://www.imdb.com/search/title/
+2025-02-25 00:05:50,223 - INFO - Keyword: Shrek
+2025-02-25 00:06:21,146 - ERROR - An error occurred: Message: element click intercepted: Element is not clickable at point (371, -52)
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+#0 0x555664de1bea <unknown>
+#1 0x55566487f7d0 <unknown>
+#2 0x5556648d7a8c <unknown>
+#3 0x5556648d58f5 <unknown>
+#4 0x5556648d2f92 <unknown>
+#5 0x5556648d2687 <unknown>
+#6 0x5556648c4c6d <unknown>
+#7 0x5556648f6a92 <unknown>
+#8 0x5556648c45ea <unknown>
+#9 0x5556648f6c5e <unknown>
+#10 0x55566491cd0c <unknown>
+#11 0x5556648f6863 <unknown>
+#12 0x5556648c2ac8 <unknown>
+#13 0x5556648c3c31 <unknown>
+#14 0x555664dab18b <unknown>
+#15 0x555664daf112 <unknown>
+#16 0x555664d9804c <unknown>
+#17 0x555664dafd04 <unknown>
+#18 0x555664d7c4bf <unknown>
+#19 0x555664dd0528 <unknown>
+#20 0x555664dd06f9 <unknown>
+#21 0x555664de0a66 <unknown>
+#22 0x7f739649caa4 <unknown>
+#23 0x7f7396529c3c <unknown>
+
+2025-02-25 00:06:21,221 - INFO - Failed to retrieve SHA-256 hash.
+2025-02-25 00:06:21,221 - INFO - ====================END====================
