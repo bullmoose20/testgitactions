@@ -1,0 +1,21 @@
+2025-05-14 00:06:15,473 - INFO - ===================START===================
+2025-05-14 00:06:15,474 - INFO - ====== WebDriver manager ======
+2025-05-14 00:06:15,903 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 00:06:15,920 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 00:06:15,929 - INFO - There is no [linux64] chromedriver "136.0.7103.92" for browser google-chrome "136.0.7103" in cache
+2025-05-14 00:06:15,929 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 00:06:15,986 - INFO - WebDriver version 136.0.7103.92 selected
+2025-05-14 00:06:15,989 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.92/linux64/chromedriver-linux64.zip
+2025-05-14 00:06:15,989 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.92/linux64/chromedriver-linux64.zip
+2025-05-14 00:06:16,026 - INFO - Driver downloading response is 200
+2025-05-14 00:06:16,089 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 00:06:16,206 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/136.0.7103.92]
+2025-05-14 00:06:16,207 - INFO - chrome_driver_path: /home/runner/.wdm/drivers/chromedriver/linux64/136.0.7103.92/chromedriver-linux64/chromedriver
+2025-05-14 00:06:17,128 - INFO - Removing log file: get-imdb-sha256-20250504000655245.log
+2025-05-14 00:06:17,128 - INFO - Chrome Browser Version: 136.0.7103.92
+2025-05-14 00:06:17,128 - INFO - ChromeDriver Version: 136.0.7103.92 (cb81a4cc5087a8303a6c8827ee2b80b71d26e334-refs/branch-heads/7103@{#1840})
+2025-05-14 00:06:17,128 - INFO - Current URL: https://www.imdb.com/search/title/
+2025-05-14 00:06:17,128 - INFO - Keyword: Shrek
+2025-05-14 00:08:17,216 - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=39215): Read timed out. (read timeout=120)
+2025-05-14 00:08:35,218 - INFO - Failed to retrieve SHA-256 hash.
+2025-05-14 00:08:35,218 - INFO - ====================END====================
