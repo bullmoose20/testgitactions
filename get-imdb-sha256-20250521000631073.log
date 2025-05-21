@@ -1,0 +1,21 @@
+2025-05-21 00:06:31,074 - INFO - ===================START===================
+2025-05-21 00:06:31,074 - INFO - ====== WebDriver manager ======
+2025-05-21 00:06:31,393 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-21 00:06:31,582 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-21 00:06:31,627 - INFO - There is no [linux64] chromedriver "136.0.7103.94" for browser google-chrome "136.0.7103" in cache
+2025-05-21 00:06:31,627 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-21 00:06:31,754 - INFO - WebDriver version 136.0.7103.94 selected
+2025-05-21 00:06:31,756 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
+2025-05-21 00:06:31,757 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/linux64/chromedriver-linux64.zip
+2025-05-21 00:06:31,804 - INFO - Driver downloading response is 200
+2025-05-21 00:06:31,939 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-21 00:06:32,092 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/136.0.7103.94]
+2025-05-21 00:06:32,093 - INFO - chrome_driver_path: /home/runner/.wdm/drivers/chromedriver/linux64/136.0.7103.94/chromedriver-linux64/chromedriver
+2025-05-21 00:06:32,945 - INFO - Removing log file: get-imdb-sha256-20250511000635610.log
+2025-05-21 00:06:32,945 - INFO - Chrome Browser Version: 136.0.7103.92
+2025-05-21 00:06:32,945 - INFO - ChromeDriver Version: 136.0.7103.94 (fa0be0b33debeb378a8e6ad9c599be34e2dc3b37-refs/branch-heads/7103@{#1842})
+2025-05-21 00:06:32,945 - INFO - Current URL: https://www.imdb.com/search/title/
+2025-05-21 00:06:32,945 - INFO - Keyword: Shrek
+2025-05-21 00:08:33,000 - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=52035): Read timed out. (read timeout=120)
+2025-05-21 00:08:48,211 - INFO - Failed to retrieve SHA-256 hash.
+2025-05-21 00:08:48,211 - INFO - ====================END====================
