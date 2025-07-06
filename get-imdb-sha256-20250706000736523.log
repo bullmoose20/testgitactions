@@ -1,0 +1,21 @@
+2025-07-06 00:07:36,523 - INFO - ===================START===================
+2025-07-06 00:07:36,523 - INFO - ====== WebDriver manager ======
+2025-07-06 00:07:41,241 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-06 00:07:41,334 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-06 00:07:41,346 - INFO - There is no [linux64] chromedriver "137.0.7151.119" for browser google-chrome "137.0.7151" in cache
+2025-07-06 00:07:41,346 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-06 00:07:41,390 - INFO - WebDriver version 137.0.7151.119 selected
+2025-07-06 00:07:41,393 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/linux64/chromedriver-linux64.zip
+2025-07-06 00:07:41,393 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/linux64/chromedriver-linux64.zip
+2025-07-06 00:07:41,409 - INFO - Driver downloading response is 200
+2025-07-06 00:07:41,457 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-06 00:07:41,578 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/137.0.7151.119]
+2025-07-06 00:07:41,579 - INFO - chrome_driver_path: /home/runner/.wdm/drivers/chromedriver/linux64/137.0.7151.119/chromedriver-linux64/chromedriver
+2025-07-06 00:07:47,912 - INFO - Removing log file: get-imdb-sha256-20250626000650338.log
+2025-07-06 00:07:47,912 - INFO - Chrome Browser Version: 137.0.7151.119
+2025-07-06 00:07:47,912 - INFO - ChromeDriver Version: 137.0.7151.119 (e0ac9d12dff5f2d33c935958b06bf1ded7f1c08c-refs/branch-heads/7151@{#2356})
+2025-07-06 00:07:47,912 - INFO - Current URL: https://www.imdb.com/search/title/
+2025-07-06 00:07:47,912 - INFO - Keyword: Shrek
+2025-07-06 00:09:47,958 - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=50021): Read timed out. (read timeout=120)
+2025-07-06 00:10:04,071 - INFO - Failed to retrieve SHA-256 hash.
+2025-07-06 00:10:04,071 - INFO - ====================END====================
