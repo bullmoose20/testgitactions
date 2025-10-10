@@ -1,0 +1,26 @@
+2025-10-10 00:06:14,075 - INFO - ===================START===================
+2025-10-10 00:06:14,076 - INFO - ====== WebDriver manager ======
+2025-10-10 00:06:16,916 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-10 00:06:16,974 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-10 00:06:17,020 - INFO - There is no [linux64] chromedriver "140.0.7339.207" for browser google-chrome "140.0.7339" in cache
+2025-10-10 00:06:17,021 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-10 00:06:17,143 - INFO - WebDriver version 140.0.7339.207 selected
+2025-10-10 00:06:17,149 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/linux64/chromedriver-linux64.zip
+2025-10-10 00:06:17,150 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/linux64/chromedriver-linux64.zip
+2025-10-10 00:06:17,198 - INFO - Driver downloading response is 200
+2025-10-10 00:06:17,269 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-10 00:06:17,428 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/140.0.7339.207]
+2025-10-10 00:06:17,429 - INFO - chrome_driver_path: /home/runner/.wdm/drivers/chromedriver/linux64/140.0.7339.207/chromedriver-linux64/chromedriver
+2025-10-10 00:06:27,334 - INFO - Removing log file: get-imdb-sha256-20250930000630223.log
+2025-10-10 00:06:27,334 - INFO - Chrome Browser Version: 140.0.7339.207
+2025-10-10 00:06:27,334 - INFO - ChromeDriver Version: 140.0.7339.207 (17230b545fd18b35aad49122e5af97a463bc7a9c-refs/branch-heads/7339@{#2364})
+2025-10-10 00:06:27,334 - INFO - Current URL: https://www.imdb.com/search/title/
+2025-10-10 00:06:27,334 - INFO - Keyword: Shrek
+2025-10-10 00:06:42,694 - INFO - Current URL after first search results found: https://www.imdb.com/search/title/?title=Shrek&title_type=feature
+2025-10-10 00:06:42,826 - INFO - Network request URL containing SHA-256 hash (ENCODED): https://caching.graphql.imdb.com/?operationName=AdvancedTitleSearch&variables=%7B%22first%22%3A50%2C%22locale%22%3A%22en-US%22%2C%22sortBy%22%3A%22POPULARITY%22%2C%22sortOrder%22%3A%22ASC%22%2C%22titleTextConstraint%22%3A%7B%22searchTerm%22%3A%22Shrek%22%7D%2C%22titleTypeConstraint%22%3A%7B%22anyTitleTypeIds%22%3A%5B%22movie%22%5D%7D%7D&extensions=%7B%22persistedQuery%22%3A%7B%22sha256Hash%22%3A%229fc7c8867ff66c1e1aa0f39d0fd4869c64db97cddda14fea1c048ca4b568f06a%22%2C%22version%22%3A1%7D%7D
+2025-10-10 00:06:42,826 - INFO - Network request URL containing SHA-256 hash (DECODED): https://caching.graphql.imdb.com/?operationName=AdvancedTitleSearch&variables={"first":50,"locale":"en-US","sortBy":"POPULARITY","sortOrder":"ASC","titleTextConstraint":{"searchTerm":"Shrek"},"titleTypeConstraint":{"anyTitleTypeIds":["movie"]}}&extensions={"persistedQuery":{"sha256Hash":"9fc7c8867ff66c1e1aa0f39d0fd4869c64db97cddda14fea1c048ca4b568f06a","version":1}}
+2025-10-10 00:06:42,826 - INFO - Extracted SHA-256 hash: 9fc7c8867ff66c1e1aa0f39d0fd4869c64db97cddda14fea1c048ca4b568f06a
+2025-10-10 00:06:42,913 - INFO - SHA-256 hash from network tab: 9fc7c8867ff66c1e1aa0f39d0fd4869c64db97cddda14fea1c048ca4b568f06a
+2025-10-10 00:06:42,913 - INFO - Hash in file and hash retrieved match.
+2025-10-10 00:06:42,913 - INFO - SHA-256 hash written to HASH file.
+2025-10-10 00:06:42,913 - INFO - ====================END====================
