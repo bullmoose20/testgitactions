@@ -1,0 +1,22 @@
+2026-05-08 00:22:12,054 - INFO - ===================START===================
+2026-05-08 00:22:12,054 - INFO - ====== WebDriver manager ======
+2026-05-08 00:22:12,209 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-08 00:22:12,242 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-08 00:22:12,270 - INFO - There is no [linux64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-05-08 00:22:12,270 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-08 00:22:12,368 - INFO - WebDriver version 147.0.7727.117 selected
+2026-05-08 00:22:12,372 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-08 00:22:12,373 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-05-08 00:22:12,416 - INFO - Driver downloading response is 200
+2026-05-08 00:22:12,473 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-08 00:22:12,596 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-05-08 00:22:12,597 - INFO - chrome_driver_path: /home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver
+2026-05-08 00:22:13,039 - INFO - Removing log file: get-imdb-sha256-20260428002113839.log
+2026-05-08 00:22:13,039 - INFO - Chrome Browser Version: 147.0.7727.55
+2026-05-08 00:22:13,039 - INFO - ChromeDriver Version: 147.0.7727.117 (474cc805edd6b22006509896c910f6b6da2427ad-refs/branch-heads/7727_111@{#4})
+2026-05-08 00:22:13,039 - INFO - Current URL: https://www.imdb.com/search/title/
+2026-05-08 00:22:13,039 - INFO - Keyword: Shrek
+2026-05-08 00:22:24,834 - INFO - Current URL after first search results found: https://www.imdb.com/search/title/?title=Shrek&title_type=feature
+2026-05-08 00:22:24,959 - INFO - No URLs matching the criteria were found.
+2026-05-08 00:22:25,090 - INFO - Failed to retrieve SHA-256 hash.
+2026-05-08 00:22:25,090 - INFO - ====================END====================
