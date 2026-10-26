@@ -1,0 +1,40 @@
+2026-10-26 02:16:28,883 - INFO - ===================START===================
+2026-10-26 02:16:28,883 - INFO - ====== WebDriver manager ======
+2026-10-26 02:16:29,149 - INFO - Get LATEST chromedriver version for google-chrome
+2026-10-26 02:16:29,192 - INFO - There is no [linux64] chromedriver "155.0.8059.84" for browser google-chrome "155.0.8059" in cache
+2026-10-26 02:16:29,232 - INFO - There is no [linux64] chromedriver "155.0.8059.84" for browser google-chrome "155.0.8059" in cache
+2026-10-26 02:16:29,232 - INFO - Get LATEST chromedriver version for google-chrome
+2026-10-26 02:16:29,372 - INFO - WebDriver version 155.0.8059.84 selected
+2026-10-26 02:16:29,391 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/155.0.8059.84/linux64/chromedriver-linux64.zip
+2026-10-26 02:16:29,391 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/155.0.8059.84/linux64/chromedriver-linux64.zip
+2026-10-26 02:16:29,452 - INFO - Driver downloading response is 200
+2026-10-26 02:16:29,674 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/155.0.8059.84]
+2026-10-26 02:16:29,676 - INFO - chrome_driver_path: /home/runner/.wdm/drivers/chromedriver/linux64/155.0.8059.84/chromedriver-linux64/chromedriver
+2026-10-26 02:16:30,758 - INFO - Removing log file: get-imdb-sha256-20261016021208812.log
+2026-10-26 02:16:30,758 - INFO - Chrome Browser Version: 155.0.8059.39
+2026-10-26 02:16:30,758 - INFO - ChromeDriver Version: 155.0.8059.84 (5869fe313571d75152b77813cf0a4ee26a4e6df0-refs/branch-heads/8059@{#1303})
+2026-10-26 02:16:30,758 - INFO - Current URL: https://www.imdb.com/search/title/
+2026-10-26 02:16:30,758 - INFO - Keyword: Shrek
+2026-10-26 02:16:56,532 - ERROR - An error occurred: Message: 
+Stacktrace:
+#0 0x5ff6b54c45ea <unknown>
+#1 0x5ff6b4dde869 <unknown>
+#2 0x5ff6b4e3556c <unknown>
+#3 0x5ff6b4e357e1 <unknown>
+#4 0x5ff6b4e86ad4 <unknown>
+#5 0x5ff6b4e83d4e <unknown>
+#6 0x5ff6b4e2829b <unknown>
+#7 0x5ff6b4e290a1 <unknown>
+#8 0x5ff6b5486fec <unknown>
+#9 0x5ff6b54857f5 <unknown>
+#10 0x5ff6b5470785 <unknown>
+#11 0x5ff6b548645a <unknown>
+#12 0x5ff6b5458d99 <unknown>
+#13 0x5ff6b54aeb18 <unknown>
+#14 0x5ff6b54aecb5 <unknown>
+#15 0x5ff6b54c2f73 <unknown>
+#16 0x77266d2abe6b <unknown>
+#17 0x77266d33f55c <unknown>
+
+2026-10-26 02:16:56,601 - INFO - Failed to retrieve SHA-256 hash.
+2026-10-26 02:16:56,601 - INFO - ====================END====================
